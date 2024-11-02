@@ -10,6 +10,7 @@
 | docker restart container-id | Restart the container which is running |
 | docker port container-id | List port mappings of a specific container |
 | docker rm container-id or name | Remove the stopped container |
+| docker rm $(docker ps -a -q) | Remove the all container |
 | docker rm -f container-id or name| Remove the running container forcefully |
 | docker pull image-info | Pull the image from docker hub repository |
 | docker pull stacksimplify/springboot-helloworld-rest-api:2.0.0-RELEASE | Pull the image from docker hub repository |
